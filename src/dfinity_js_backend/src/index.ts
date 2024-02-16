@@ -2,6 +2,7 @@ import { query, update, text, Record, StableBTreeMap, Variant, Vec, None, Some, 
 import {
     Ledger, binaryAddressFromAddress, binaryAddressFromPrincipal, hexAddressFromPrincipal
 } from "azle/canisters/ledger";
+//@ts-ignore
 import { hashCode } from "hashcode";
 import { v4 as uuidv4 } from "uuid";
 
