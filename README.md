@@ -1,20 +1,22 @@
+# To deploy
+
+- Ledger
+```./scripts/deploy-local-ledger.sh```
+
+- Internet Identity
+```dfx deploy internet_identity```
+
+- Backend
+```dfx deploy dfinity_js_backend```
+
+- Frontend
+```dfx deploy dfinity_js_frontend```
+
 ## Things to be explained in the course:
 1. What is Ledger? More details here: https://internetcomputer.org/docs/current/developer-docs/integrations/ledger/
 2. What is Internet Identity? More details here: https://internetcomputer.org/internet-identity
 3. What is Principal, Identity, Address? https://internetcomputer.org/internet-identity | https://yumimarketplace.medium.com/whats-the-difference-between-principal-id-and-account-id-3c908afdc1f9
 4. Canister-to-canister communication and how multi-canister development is done? https://medium.com/icp-league/explore-backend-multi-canister-development-on-ic-680064b06320
-
-## Getting started
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dacadeorg/icp-azle-201)
-
-If you rather want to use GitHub Codespaces, click this button instead:
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dacadeorg/icp-azle-201?quickstart=1)
-
-**NOTE**: After deploying your canisters in GitHub Codespaces, run `./canister_urls.py` and click the links that are shown there.
-
-[![Open locally in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/dacadeorg/icp-azle-201)
 
 ## How to deploy canisters implemented in the course
 

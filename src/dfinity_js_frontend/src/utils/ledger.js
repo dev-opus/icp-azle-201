@@ -11,7 +11,10 @@ export async function transferICP(sellerAddress, amount, memo) {
         from_subaccount: [],
         created_at_time: []
     });
-    return result.Ok;
+    if (result.Err){
+        throw new Error(result.Err);
+    }
+    return result.Ok;   
 }
 
 export async function balance() {

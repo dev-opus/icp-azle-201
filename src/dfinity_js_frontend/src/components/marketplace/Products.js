@@ -74,12 +74,13 @@ const Products = () => {
             <AddProduct save={addProduct} />
           </div>
           <Row xs={1} sm={2} lg={3} className="g-3  mb-5 g-xl-4 g-xxl-5">
-            {products.map((_product) => (
+            {products.map((_product, index) => (
               <Product
                 product={{
                   ..._product,
                 }}
                 buy={buy}
+                key={index}
               />
             ))}
           </Row>
